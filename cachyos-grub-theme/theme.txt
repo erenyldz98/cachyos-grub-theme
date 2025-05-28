@@ -1,0 +1,59 @@
+title-text: ""
+title-font: "Terminus 16"
+message-font: "Terminus 16"
+message-color: "#5b5b5b"
+message-bg-color: "#444444"
+desktop-color: "#252525"
+desktop-image: "background.png"
+terminal-font: "Terminus 14"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+
++ boot_menu {
+    left = 16%
+    #width = 250
+    width = 66%
+    #top = 50%-125
+    #height = 400
+    top = 30%
+    height = 44%
+    item_height = 30
+    item_padding = 5
+    icon_width = 32
+    icon_height = 32
+    item_icon_space = 15
+    item_spacing = 5
+    item_font =  "Terminus 16"
+    item_color = "#cccccc"
+    #item_color = "#eeeeee"
+    selected_item_font = "Terminus 16"
+    selected_item_color = "#EEEEEE"
+    selected_item_pixmap_style = "select_*.png"
+    #menu_pixmap_style = "menu_*.png"
+}
+
++ progress_bar {
+    id = "__timeout__"
+    left = 50%-125
+    top = 70%
+    width = 250
+    height = 20
+    show_text = true
+    font = "Terminus 14"
+    text_color = "#ffffff"
+    align = "center"
+    text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
+    bar_style = "progress_bar2_*.png"
+}
+
++ hbox {
+    left = 50%-260
+    top = 81%
+    width = 520
+    + label { width = 250 height = 20 align = "center" color = "#fafafa" font = "Terminus 16" text = "C = Open GRUB Command" }
+    + label { width = 250 height = 20 align = "center" color = "#fafafa" font = "Terminus 16" text = "E = Edit Boot Options" }
+}
