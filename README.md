@@ -1,0 +1,1 @@
+# cachyos-grub-theme
