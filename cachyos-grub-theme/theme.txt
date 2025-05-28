@@ -54,6 +54,6 @@ terminal-border: "0"
     left = 50%-260
     top = 81%
     width = 520
-    + label { width = 250 height = 20 align = "center" color = "#fafafa" font = "Terminus 16" text = "C = Open GRUB Command" }
-    + label { width = 250 height = 20 align = "center" color = "#fafafa" font = "Terminus 16" text = "E = Edit Boot Options" }
+    + label { width = 260 height = 20 align = "center" color = "#fafafa" font = "Terminus 16" text = "C = Open GRUB Command" }
+    + label { width = 260 height = 20 align = "center" color = "#fafafa" font = "Terminus 16" text = "E = Edit Boot Options" }
 }
